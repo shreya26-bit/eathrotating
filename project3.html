@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-B">
+        <meta name="view piont " content="ie=edge">
+        <title>BEFORE AND AFTER PSEUDO SELECTOR</title>
+        </head>
+        <link href="https://fonts.google.com/specimen/Rowdies" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body{
+                margin:0px;
+                padding: 0px;
+                background-color: black;
+                color: white;
+                background:url(https://source.unsplash.com/random/) no-repeat center center/cover ;
+            }
+            header::before{
+                /* background:url('https://images.unsplash.com/photo-1644030692585-5cacde03d84a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNvdXJjZSUyMGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60') no-repeat center center/cover ; */
+                /* content: ""; */
+                /* background:url(https://source.unsplash.com/random/); */
+                opacity: 100;
+                z-index: -1;
+
+            }
+
+            .navigation{
+                font-size: 20px;
+                display: flex;
+            }
+            li{
+                list-style: none;
+                padding: 34px 23px;
+            }
+            section{
+                height: 344px;
+                border: 2px solid cyan;
+                margin: 3px 23px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            h1{
+                font-size: 4rem;
+            }
+            p{
+                text-align: centre;
+            }
+
+        </style>
+        </head>
+        <body>
+            <header>
+                <nav class="navbar">
+                    <ul class="navigation bar">
+                        <li class="item">Home</li>
+                        <li class="item">About</li>
+                        <li class="item">services</li>
+                        <li class="item">Contact us</li>
+                    </ul>
+                </nav>
+                <section>
+                    <h3>welcome to coding world</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sit ex iusto quas labore explicabo accusantium similique nobis unde aut, et aliquam ea dolores doloribus quia eligendi. Sequi accusantium error quidem voluptatem explicabo esse. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, et sequi? Qui veniam distinctio eos magni esse nam sunt quas? Possimus unde tempore cum exercitationem, deserunt impedit facilis obcaecati commodi? Rerum rem doloremque assumenda.
+                    </p>
+                </section>
+            </header>
+        </body>
+        </html>
