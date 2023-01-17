@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-B">
+        <meta name="view piont " content="ie=edge">
+        <title>SHREYA FITNES</title>
+        </head>
+        <link href="https://fonts.google.com/specimen/Rowdies" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            /*CSS RESET*/
+            body{
+                margin:0px;
+                padding:0px;
+                background:url('https://media.istockphoto.com/id/875207140/photo/sport-background-with-fitness-equipment-in-gym-gym.jpg?s=1024x1024&w=is&k=20&c=xipsquwpzN9p7zCCNYafX3dRWiyRjuuEsp0Vbv1xdac=');
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: white;
+                font-family: "Rowdies rev=2";
+
+            }
+            .left{
+            display: inline-block;
+            /* border:2px solid red; */
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            text-align: centre;
+            }
+            .left img{
+            width: 136px;
+            }
+            .left div{
+                text-align: center;
+                font-size:20px;
+                /* line-height: 1px; */
+            }
+            .mid{
+               display: block;
+               width: 33%;
+               margin: 20px auto;
+            /* border :2px solid green; */
+            }
+            .right{
+                position: absolute;
+                right: 34px;
+                top: 20px;
+                display: inline-block;
+           /* border:2px solid grey; */
+            }
+            .navbar{
+                display: inline-block; /*its help us to set width and height*/
+            }
+            .navbar li{
+                display: inline-block; /* elment are come in one line*/
+            }
+            .navbar li a{
+                color: white;
+                text-decoration: none; /* its help to remove the underline*/
+                padding: 20px 15px;
+                font-size: 18px;
+            }
+            .navbar li a:hover{
+                text-decoration: underline;
+                color: grey;
+            }
+            .btn{
+                
+             margin:0px 9px;
+             background-color: black;
+            color: white;
+            padding: 4px 12px; 
+            border: 2px solid rgb(127, 119, 119);
+            border-radius: 18px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: "Rowdies rev=2";
+            }
+            .btn:hover{
+                background-color: rgb(193, 161, 161);
+                text-decoration: underline;
+            }
+            .container{
+                border: 2px solid rgb(246, 242, 242);
+                margin: 180px 80px;
+                padding: 75px;
+                width: 33%;
+                border-radius: 18px;
+            }
+            .form-group input{
+                text-align:centre;
+                display: block;
+                width:400px;
+                padding: 8px;
+                border-radius: 18px;
+                margin: 3px auto;
+                font-size: 20px;
+                border: 2px solid black;
+            }
+            .container button{
+                width: 400px;
+                display: block;
+                margin: auto;
+                border-radius: 18px;
+            }
+             h2{
+                 text-align: center; 
+            } 
+        </style>
+        <body>
+            <header class="header">
+                <!--left box for logo-->
+                <div class="left">
+                    <img src="https://cdn.pixabay.com/photo/2022/07/17/19/43/man-7328236__340.png">
+                
+           <div> shreya fitness</div>
+                </div>
+                </div>
+                <!--MID BOX FOR NAVBAR-->
+                <div class="mid">
+                    <ul class="navbar">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">fitness calculator</a></li>
+                    </ul>
+                </div>
+                <!--RIGHT BOX FOR BUTTONS-->
+                <div class="right">
+                <button class="btn">call us know</button>
+                <button class="btn">email us</button>
+                </div>
+        <!-- HERE HEDING PART IS KMOW ENDED -->
+            </header>
+            <div class="container">
+               <h2>JOIN THE BEST GYM OF BAREILLY</h2>
+               <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name=""placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name=""placeholder="Enter Your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name=""placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name=""placeholder="Enter Your locaility">
+                </div>
+                <button class="btn">submit</button>
+               </form>
+                </div>
+        </body>
+        
